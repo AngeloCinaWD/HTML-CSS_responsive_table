@@ -9,3 +9,9 @@
 [html table](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/table)
 
 [html caption](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/caption)
+
+[html tr](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/tr)
+
+[html th](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/th)
+
+[html td](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/td)
