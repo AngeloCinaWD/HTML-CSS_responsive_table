@@ -27,3 +27,9 @@
 [css text-transform](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)
 
 [css :nth-of-type()](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type)
+
+[css ::before](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
+
+[css :first-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child)
+
+[css :last-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child)
