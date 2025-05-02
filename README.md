@@ -1,5 +1,9 @@
 ## [ThksTo](https://www.youtube.com/watch?v=czZ1PvNW5hk&ab_channel=KevinPowell)
 
+## [Adrian Roselli blog: responsive tables](https://adrianroselli.com/2017/11/a-responsive-accessible-table.html)
+
+## [Adrian Roselli blog: add aria to tables](https://adrianroselli.com/2018/05/functions-to-add-aria-to-tables-and-lists.html)
+
 [css color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme)
 
 [css min()](https://www.freecodecamp.org/italian/news/funzioni-css-come-usare-calc-max-min-e-clamp-2/)
