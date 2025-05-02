@@ -5,3 +5,7 @@
 [css min()](https://www.freecodecamp.org/italian/news/funzioni-css-come-usare-calc-max-min-e-clamp-2/)
 
 [css margin-inline](https://developer.mozilla.org/en-US/docs/Web/CSS/margin-inline)
+
+[html table](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/table)
+
+[html caption](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/caption)
