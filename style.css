@@ -15,30 +15,42 @@ body {
   margin-inline: auto;
 }
 
-/* se dò un background alla table, il caption, pur essendo contenuto in essa, non lo prende */
-/* quindi per essere sicuro che lo abbia gli devo assegnare direttamente la property css */
-/* per ora tolgo da qui caption */
-table
-/* caption { */ {
-  /* una tabella crea di default dei borders fra le celle al suo interno */
-  /* per eliminare questo comportamento utilizziamo la property border-collapse */
-  /* border-collapse: separate crea i bordi per ogni cella in maniera separata */
+table {
   border-collapse: collapse;
   background-color: #323232;
-  /* color: black; */
-  /* assegno alla tabella il 100% della larghezza del contenitore .wrapper */
   width: 100%;
 }
 
 th,
 td,
 caption {
-  /* background-color: white; */
   padding: 1rem;
 }
-
-/* i th e il caption hanno di default il testo allineato al centro */
 caption,
 th {
   text-align: left;
+}
+
+/* setto alcune proprietà per il caption */
+caption {
+  /* hsl: hue, saturation, lightness */
+  background: hsl(0 0% 0%);
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* testo maiuscolo */
+  text-transform: uppercase;
+}
+
+/* setto un background anche per l'header */
+th {
+  /* dopo aver definito hue, saturation and lightness posso definire la transparency di un colore mettendo uno slash ed un valore fra 0 ed 1 */
+  background: hsl(0 0% 0% / 0.5);
+}
+
+/* dò un colore diverso ad ogni tr para */
+/* parte quindi dalla prima riga dopo l'header, perchè anche l'header è una tr */
+/* avrei potuto utilizzare anche tr:nth-of-type(2n), cioè ogni secondo elemento */
+/* tr:nth-of-type(2n + 1) ogni terzo elemento, sarebbe un elemento pari + 1 */
+tr:nth-of-type(even) {
+  background-color: hsl(0 0% 0% / 0.1);
 }

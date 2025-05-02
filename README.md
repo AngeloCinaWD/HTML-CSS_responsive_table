@@ -21,3 +21,9 @@
 [html td](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/td)
 
 [css border-collapse](https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse)
+
+[css hsl()](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl)
+
+[css text-transform](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)
+
+[css :nth-of-type()](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type)
