@@ -19,3 +19,5 @@
 [html th](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/th)
 
 [html td](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/td)
+
+[css border-collapse](https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse)

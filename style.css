@@ -14,3 +14,31 @@ body {
   width: min(900px, 100% - 3rem);
   margin-inline: auto;
 }
+
+/* se dò un background alla table, il caption, pur essendo contenuto in essa, non lo prende */
+/* quindi per essere sicuro che lo abbia gli devo assegnare direttamente la property css */
+/* per ora tolgo da qui caption */
+table
+/* caption { */ {
+  /* una tabella crea di default dei borders fra le celle al suo interno */
+  /* per eliminare questo comportamento utilizziamo la property border-collapse */
+  /* border-collapse: separate crea i bordi per ogni cella in maniera separata */
+  border-collapse: collapse;
+  background-color: #323232;
+  /* color: black; */
+  /* assegno alla tabella il 100% della larghezza del contenitore .wrapper */
+  width: 100%;
+}
+
+th,
+td,
+caption {
+  /* background-color: white; */
+  padding: 1rem;
+}
+
+/* i th e il caption hanno di default il testo allineato al centro */
+caption,
+th {
+  text-align: left;
+}
