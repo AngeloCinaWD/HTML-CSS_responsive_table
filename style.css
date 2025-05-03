@@ -47,34 +47,36 @@ tr:nth-of-type(even) {
 }
 
 @media (max-width: 650px) {
-  /* un ottimo modo per far diventare responsive mobile una tabella è nascondere l'header sotto una certa larghezza di risoluzione */
   th {
     display: none;
   }
 
-  /* e fare in modo che le celle di ogni riga assumano un comportamento block, in modo da andarsi a disporre verticalmente una sotto l'altra */
   td {
     display: block;
     padding: 0.5rem 1rem;
   }
-
-  /* primo elemento td di ogni riga */
   td:first-child {
     padding-top: 1rem;
   }
-
-  /* ultimo elemento td di ogni riga */
   td:last-child {
     padding-bottom: 1rem;
   }
 
-  /* utilizzando la pseudoclass ::before sui td e la proeprty content: attr() possiamo mostrare qualcosa prima del valore della cella */
-  /* in questo caso utilizziamo il valore dell'attributo data-cell per mostrarlo prima del dato del td */
+  /* utilizzando il data-cell attribute posssiamo quindi ricavarne il valore e metterlo prima di ogni td n ogni riga */
+  /* in questo modo il valore che vogliamo inserire nel content deve essere riportato nell'html */
   td::before {
-    /* con una stringa successiva aggiungiamo testo a quello che viene mostrato col content */
     content: attr(data-cell) ': ';
     font-weight: 700;
-    /* prima lettera di ogni parola in maiuscolo */
     text-transform: capitalize;
   }
+
+  /* potremmo invece definire uno per uno l'elemento td in base alla sua posizione e assegnargli il content qui */
+  /* in questo caso non va utilizzato l'attributo data-cell nell'html */
+  /* td:nth-of-type(1)::before {
+    content: 'name';
+  }
+
+  td:nth-of-type(2)::before {
+    content: 'poles';
+  } */
 }
